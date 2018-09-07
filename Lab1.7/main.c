@@ -25,7 +25,7 @@ void FCFS (void){
             wt[i]+=bt[j];
     }
  
-    printf("\nProcess\t\tBurst Time);
+    printf("\nProcess\t\tBurst Time");
  
  
     avwt/=i;
