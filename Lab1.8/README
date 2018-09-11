@@ -1,0 +1,5 @@
+El programa se compila con
+	gcc main.c -o main.o -pthread
+  
+Correrlo con 
+./helloToMany.c
