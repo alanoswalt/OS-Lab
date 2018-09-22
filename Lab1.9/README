@@ -1,0 +1,9 @@
+1. Compile with
+      gcc multiplier.c -o multiplier.o -pthread
+
+2. Run with
+      ./multiplier.o
+
+3. Enter buffer between 1 and 3
+
+Time it takes with 3 buffers: Maybe arround 5 min
