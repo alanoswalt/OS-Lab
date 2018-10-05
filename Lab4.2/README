@@ -1,0 +1,8 @@
+Alan Oswaldo Sánchez Vázquez - A01227225
+Edgar Fabricio Barba Flores - A01630910
+Juan Salvador Fernández Contreras - A01631205
+
+
+
+1 - Compilar usando         gcc diner.c -o diner.o -l pthread
+2 - Para detener el codigo usar CTRL+Z
