@@ -18,8 +18,8 @@ Allocating Lots of Memory
 
 Allocated memory is managed by the Linux kernel. Each time the program asks for
 memory the Linux kernel takes charge and decides how to handle the request.
-Initially, the kernel was simply able to use free physical memory to satisfy the application’s request for
-memory, but once physical memory was full, it started using what’s called swap space. On Linux, this is
+The kernel is able to use free physical memory to satisfy the application’s request for
+memory, but once physical memory is full, it started using what’s called swap space. On Linux, this is
 a separate disk area allocated when the system was installed. If you’re familiar with Windows, the Linux
 swap space acts a little like the hidden Windows swap file. However, unlike Windows, there are no local
 heap, global heap, or discardable memory segments to worry about in code — the Linux kernel does all
