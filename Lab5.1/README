@@ -1,0 +1,19 @@
+Summary
+Memory is always a scare respurce. No matter how much memory is available,
+it never seems to be enough. 
+
+This lecture tell us to allocate memory using "malloc" call in the standard C library to allocate 
+a great deal of memory. Let’s start with a very simple program, 
+but one that would defeat old MS-DOS-based programs,because they cannot access memory outside thebase 640K memory map of PCs.
+
+The first program asks the malloc library to give it a pointer to a megabyte of memory, it can check to ensure
+that malloc was successful and then use some of the memory to show that it exists. 
+
+If you run the program, it prints Hello World, showing that malloc did indeed return the megabyte
+of usable memory. Because the malloc returns a void * pointer, it cast the result to the char * that its needed.
+The malloc function is guaranteed to return memory that is aligned so that it can be cast to a pointer of
+any type.
+
+Allocating Lots of Memory
+
+
