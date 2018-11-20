@@ -1,0 +1,15 @@
+1) Go to the locatation of "server3.c" and "client3.c", it must be the same.
+	
+	command: cd /..../LOCATION
+
+2) Compile program with the follow comands.
+	
+	command: gcc server3.c -o server3.o
+	command: gcc client3.c -o client3.o
+
+
+3) Run the program with the following comands
+	
+	command: ./server1.o &
+	command: ./client1.o <id> & ./client1.o <id> & ./client1.o <id> & ./client1.o <id> &
+  command: ./client1.o 1 & ./client1.o 52 & ./client1.o 37 & ./client1.o 40 &
